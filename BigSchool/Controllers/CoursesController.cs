@@ -18,6 +18,19 @@ namespace BigSchool.Controllers
         }
         // GET: Courses
         [Authorize]
+        //Them chức năng
+        public ActionResult Create()
+        {
+            var viewModel = new CourseViewModel
+            {
+                Categories = _dbContext.Categories.ToList()
+            };
+            return View(viewModel);
+        }
+
+        [HttpPost]
+        [Authorize]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(CourseViewModel viewModel)
         {
             if (!ModelState.IsValid)
@@ -28,7 +41,7 @@ namespace BigSchool.Controllers
 
             var course = new Course
             {
-                LecturedId = User.Identity.GetUserId(),
+                LecturerId = User.Identity.GetUserId(),
                 DateTime = viewModel.GetDateTime(),
                 CategoryId = viewModel.Category,
                 Place = viewModel.Place

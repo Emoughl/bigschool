@@ -38,3 +38,26 @@ textarea {
 .navbar-inverse .navbar-brand{
     color: white;
 }
+/*Cource layout*/
+.cource {
+    list-style: none;
+}
+
+    .cource > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .cource > li .date {
+            text-align: center;
+            background-color: #d41d50;
+            color: azure;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+        .cource > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }

@@ -106,7 +106,6 @@ C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CoreC
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.CopyComplete
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.dll
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.pdb
-C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.hh.resources
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.GenerateResource.cache
-C:\Users\Admin\source\repos\Bigschool\BigSchool\obj\Debug\BigSchool.Migrations.CreateTableCourse.resources
-C:\Users\Admin\source\repos\Bigschool\BigSchool\obj\Debug\BigSchool.Migrations.PopulateCategoryTable.resources
+C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.Properties.Resources.resources
+C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.UpdateDB.resources
