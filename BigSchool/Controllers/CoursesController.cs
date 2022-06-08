@@ -18,6 +18,7 @@ namespace BigSchool.Controllers
         }
         // GET: Courses
         [Authorize]
+        //Them chức năng
         public ActionResult Create(CourseViewModel viewModel)
         {
             if (!ModelState.IsValid)
