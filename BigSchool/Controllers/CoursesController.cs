@@ -19,6 +19,7 @@ namespace BigSchool.Controllers
         // GET: Courses
         [Authorize]
         //Them chức năng
+<<<<<<< HEAD
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
@@ -31,6 +32,8 @@ namespace BigSchool.Controllers
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
+=======
+>>>>>>> 9ad9fb3e04ed6aaff25754dbd9c9f85ec43912b8
         public ActionResult Create(CourseViewModel viewModel)
         {
             if (!ModelState.IsValid)
