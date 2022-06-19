@@ -109,3 +109,11 @@ C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.pdb
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.Properties.Resources.resources
 C:\Users\Admin\source\repos\BigSchool\BigSchool\obj\Debug\BigSchool.Migrations.UpdateDB.resources
+C:\Users\Admin\source\repos\Bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
+C:\Users\Admin\source\repos\Bigschool\BigSchool\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\source\repos\Bigschool\BigSchool\bin\System.Web.Http.dll
+C:\Users\Admin\source\repos\Bigschool\BigSchool\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\source\repos\Bigschool\BigSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\source\repos\Bigschool\BigSchool\bin\System.Web.Http.xml
+C:\Users\Admin\source\repos\Bigschool\BigSchool\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\source\repos\Bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowigsTable.resources

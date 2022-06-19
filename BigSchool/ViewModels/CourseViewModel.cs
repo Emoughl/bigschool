@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Globalization;
 
 namespace BigSchool.ViewModels
 {
@@ -24,7 +25,13 @@ namespace BigSchool.ViewModels
 
         public DateTime GetDateTime()
         {
-            return DateTime.Parse(string.Format("{0}  {1}", Date, Time));
+            DateTime dateTime;
+            DateTime.TryParseExact(string.Format("{0} {1}", Date, Time),
+                "dd/M/yyyy HH:mm",
+                CultureInfo.CurrentCulture,
+                DateTimeStyles.None,
+                out dateTime);
+            return dateTime;
         }
 
     }

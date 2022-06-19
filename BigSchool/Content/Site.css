@@ -39,25 +39,44 @@ textarea {
     color: white;
 }
 /*Cource layout*/
-.cource {
+.course {
     list-style: none;
 }
 
-    .cource > li {
+    .course > li {
+        display: flex;
         position: relative;
         margin-bottom: 30px;
     }
 
-        .cource > li .date {
+        .course > li .date {
             text-align: center;
             background-color: #d41d50;
             color: azure;
             width: 60px;
+            height: 60px;
             border-radius: 8px;
         }
 
-        .cource > li .details {
+        .course > li .date .month {
+            font-size: 2rem;
+        }
+
+            .course > li .date .day {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+        .course > li .details {
             position: absolute;
             top: 0;
             left: 70px;
         }
+
+    .course .details .lecturer {
+        display: block;
+    }
+
+    .course .details .category {
+        display: block;
+    }
